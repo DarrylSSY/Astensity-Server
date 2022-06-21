@@ -1,0 +1,90 @@
+[02:00:40] [ServerMain/INFO]: Building unoptimized datafixer
+[02:00:42] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[02:00:45] [ServerMain/INFO]: Loaded 7 recipes
+[02:00:47] [Server thread/INFO]: Starting minecraft server version 1.19
+[02:00:47] [Server thread/INFO]: Loading properties
+[02:00:47] [Server thread/INFO]: This server is running Purpur version git-Purpur-1670 (MC: 1.19) (Implementing API version 1.19-R0.1-SNAPSHOT) (Git: 4f47e9c on HEAD)
+[02:00:47] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[02:00:47] [Server thread/INFO]: Using 4 threads for Netty based IO
+[02:00:48] [Server thread/WARN]: [Pufferfish] SIMD operations are available for your server, but are not configured!
+[02:00:48] [Server thread/WARN]: [Pufferfish] To enable additional optimizations, add "--add-modules=jdk.incubator.vector" to your startup flags, BEFORE the "-jar".
+[02:00:48] [Server thread/WARN]: [Pufferfish] If you have already added this flag, then SIMD operations are not supported on your JVM or CPU.
+[02:00:48] [Server thread/WARN]: [Pufferfish] Debug: Java: 17.0.1, test run: true
+[02:00:48] [Server thread/INFO]: Default game type: SURVIVAL
+[02:00:48] [Server thread/INFO]: Generating keypair
+[02:00:48] [Server thread/INFO]: Starting Minecraft server on *:25565
+[02:00:48] [Server thread/INFO]: Using default channel type
+[02:00:48] [Server thread/INFO]: Paper: Using Java 11 compression from Velocity.
+[02:00:48] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[02:00:49] [Server thread/INFO]: [Oraxen] Loading 2 libraries... please wait
+[02:00:49] [Server thread/INFO]: [Oraxen] Loaded library C:\Users\ssyda\Desktop\Astensity\libraries\org\springframework\spring-expression\5.3.16\spring-expression-5.3.16.jar
+[02:00:49] [Server thread/INFO]: [Oraxen] Loaded library C:\Users\ssyda\Desktop\Astensity\libraries\org\springframework\spring-core\5.3.16\spring-core-5.3.16.jar
+[02:00:49] [Server thread/INFO]: [Oraxen] Loaded library C:\Users\ssyda\Desktop\Astensity\libraries\org\springframework\spring-jcl\5.3.16\spring-jcl-5.3.16.jar
+[02:00:49] [Server thread/INFO]: [Oraxen] Loaded library C:\Users\ssyda\Desktop\Astensity\libraries\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar
+[02:00:49] [Server thread/INFO]: [Oraxen] Loaded library C:\Users\ssyda\Desktop\Astensity\libraries\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar
+[02:00:49] [Server thread/INFO]: [Oraxen] Loaded library C:\Users\ssyda\Desktop\Astensity\libraries\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar
+[02:00:49] [Server thread/INFO]: [Oraxen] Loaded library C:\Users\ssyda\Desktop\Astensity\libraries\commons-logging\commons-logging\1.2\commons-logging-1.2.jar
+[02:00:49] [Server thread/INFO]: [Oraxen] Loaded library C:\Users\ssyda\Desktop\Astensity\libraries\commons-codec\commons-codec\1.11\commons-codec-1.11.jar
+[02:00:49] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.0.0-SNAPSHOT-b569
+[02:00:53] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[02:00:53] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.0.0-SNAPSHOT-b569
+[02:00:53] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
+[02:00:53] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[02:00:53] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[02:00:53] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[02:00:53] [Server thread/WARN]: You will not be offered any support as long as the server allows offline-mode players to join.
+[02:00:53] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[02:00:53] [Server thread/INFO]: Preparing level "world"
+[02:00:55] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[02:00:55] [Server thread/INFO]: Time elapsed: 699 ms
+[02:00:55] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[02:00:55] [Server thread/INFO]: Time elapsed: 166 ms
+[02:00:55] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[02:00:56] [Server thread/INFO]: Time elapsed: 145 ms
+[02:01:03] [Server thread/INFO]: Loaded 7 recipes
+[02:01:04] [Server thread/INFO]: Loaded 7 recipes
+[02:01:06] [Server thread/INFO]: Oraxen | Automatic upload of the resource pack is enabled, uploading...
+[02:01:06] [Server thread/INFO]: Oraxen | Successfully loaded on Windows 10
+[02:01:06] [Server thread/INFO]: Running delayed init tasks
+[02:01:07] [User Authenticator #1/INFO]: UUID of player DarrylSSY is c9e17f15-219e-3226-88f9-45be3a1e18d3
+[02:01:07] [User Authenticator #2/INFO]: UUID of player DarrylSSY is c9e17f15-219e-3226-88f9-45be3a1e18d3
+[02:01:07] [Server thread/INFO]: Loaded 7 recipes
+[02:01:08] [Server thread/INFO]: Done (21.138s)! For help, type "help"
+[02:01:08] [Server thread/INFO]: Timings Reset
+[02:01:08] [Server thread/INFO]: com.mojang.authlib.GameProfile@1bfb319a[id=c9e17f15-219e-3226-88f9-45be3a1e18d3,name=DarrylSSY,properties={},legacy=false] (/127.0.0.1:65215) lost connection: Disconnected
+[02:01:09] [Server thread/INFO]: DarrylSSY joined the game
+[02:01:09] [Server thread/INFO]: DarrylSSY[/127.0.0.1:65218] logged in with entity id 97 at ([world]-86.14604790207271, 64.0, -407.09663611973315)
+[02:01:17] [Craft Scheduler Thread - 3 - Oraxen/INFO]: Oraxen | Resourcepack uploaded on url http://atlas.oraxen.com/pack.zip?id=800c98d3d17c96d7e0b39e20cc474a73e343c589 in 11125 ms
+[02:01:40] [Server thread/INFO]: DarrylSSY issued server command: /o inv
+[02:02:12] [Server thread/INFO]: DarrylSSY issued server command: /o reload all
+[02:02:14] [Server thread/INFO]: Oraxen | Automatic upload of the resource pack is enabled, uploading...
+[02:02:15] [Server thread/INFO]: Loaded 7 recipes
+[02:02:16] [Server thread/INFO]: Loaded 7 recipes
+[02:02:27] [Craft Scheduler Thread - 0 - Oraxen/INFO]: Oraxen | Resourcepack uploaded on url http://atlas.oraxen.com/pack.zip?id=800c98d3d17c96d7e0b39e20cc474a73e343c589 in 12491 ms
+[02:02:36] [Server thread/INFO]: DarrylSSY issued server command: /o reload all
+[02:02:39] [Server thread/INFO]: Oraxen | Automatic upload of the resource pack is enabled, uploading...
+[02:02:39] [Server thread/INFO]: Loaded 7 recipes
+[02:02:40] [Server thread/INFO]: Loaded 7 recipes
+[02:02:51] [Craft Scheduler Thread - 0 - Oraxen/INFO]: Oraxen | Resourcepack uploaded on url http://atlas.oraxen.com/pack.zip?id=800c98d3d17c96d7e0b39e20cc474a73e343c589 in 12035 ms
+[02:03:21] [Server thread/INFO]: DarrylSSY issued server command: /o reload all
+[02:03:23] [Server thread/INFO]: Oraxen | Automatic upload of the resource pack is enabled, uploading...
+[02:03:24] [Server thread/INFO]: Loaded 7 recipes
+[02:03:24] [Server thread/INFO]: Loaded 7 recipes
+[02:03:35] [Craft Scheduler Thread - 10 - Oraxen/INFO]: Oraxen | Resourcepack uploaded on url http://atlas.oraxen.com/pack.zip?id=800c98d3d17c96d7e0b39e20cc474a73e343c589 in 11250 ms
+[02:03:53] [Server thread/INFO]: DarrylSSY issued server command: /o reload all
+[02:03:55] [Server thread/INFO]: Oraxen | Automatic upload of the resource pack is enabled, uploading...
+[02:03:55] [Server thread/INFO]: Loaded 7 recipes
+[02:03:56] [Server thread/INFO]: Loaded 7 recipes
+[02:04:07] [Craft Scheduler Thread - 11 - Oraxen/INFO]: Oraxen | Resourcepack uploaded on url http://atlas.oraxen.com/pack.zip?id=800c98d3d17c96d7e0b39e20cc474a73e343c589 in 11504 ms
+[02:04:17] [Server thread/INFO]: DarrylSSY issued server command: /o reload all
+[02:04:19] [Server thread/INFO]: Oraxen | Automatic upload of the resource pack is enabled, uploading...
+[02:04:19] [Server thread/INFO]: Loaded 7 recipes
+[02:04:20] [Server thread/INFO]: Loaded 7 recipes
+[02:04:30] [Craft Scheduler Thread - 11 - Oraxen/INFO]: Oraxen | Resourcepack uploaded on url http://atlas.oraxen.com/pack.zip?id=800c98d3d17c96d7e0b39e20cc474a73e343c589 in 11539 ms
+[02:04:38] [Server thread/INFO]: DarrylSSY issued server command: /o reload all
+[02:04:40] [Server thread/INFO]: Oraxen | Automatic upload of the resource pack is enabled, uploading...
+[02:04:41] [Server thread/INFO]: Loaded 7 recipes
+[02:04:41] [Server thread/INFO]: Loaded 7 recipes
+[02:04:52] [Craft Scheduler Thread - 11 - Oraxen/INFO]: Oraxen | Resourcepack uploaded on url http://atlas.oraxen.com/pack.zip?id=800c98d3d17c96d7e0b39e20cc474a73e343c589 in 11835 ms
+[02:04:59] [Server thread/INFO]: DarrylSSY issued server command: /o dye #aa0000
+[02:05:29] [Server thread/INFO]: DarrylSSY issued server command: /o inv

@@ -1,0 +1,24 @@
+heart:
+  texture: default/chat/heart
+  ascent: 8
+  height: 8
+  chat:
+    placeholders:
+      - "<3"
+    permission: "oraxen.emoji.heart"
+relaxed:
+  texture: default/chat/relaxed
+  ascent: 8
+  height: 8
+  chat:
+    placeholders:
+      - ":relaxed:"
+    permission: "oraxen.emoji.relaxed"
+joy:
+  texture: default/chat/joy
+  ascent: 8
+  height: 8
+  chat:
+    placeholders:
+      - ":joy:"
+    permission: "oraxen.emoji.joy"
