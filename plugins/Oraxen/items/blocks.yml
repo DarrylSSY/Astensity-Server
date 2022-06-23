@@ -155,25 +155,6 @@ cart:
   Pack:
     generate_model: false
     model: default/cart
-
-chair:
-  displayname: "<gray>Chair"
-  material: PAPER
-  Mechanics:
-    furniture:
-      facing: UP
-      barrier: true
-      # this option requires barrier: true
-      seat: { height: 0, yaw: 0 }
-      # this option requires barrier: true
-      drop:
-        silktouch: false
-        loots:
-          - { oraxen_item: chair, probability: 1.0 }
-  Pack:
-    generate_model: false
-    model: default/chair
-
 coach:
   displayname: "<gray>Coach"
   material: PAPER
@@ -291,6 +272,76 @@ beach_chair:
   Pack:
     generate_model: false
     model: custom/furniture/beach_chair
+bird_bath:
+  displayname: "<gray>Bird Bath"
+  material: LEATHER_HORSE_ARMOR
+  Mechanics:
+    furniture:
+      rotation: NONE
+      barrier: true
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+          - { oraxen_item: bird_bath, probability: 1.0 }
+  Pack:
+    generate_model: false
+    model: custom/furniture/bird_bath
+bird_stand:
+  displayname: "<gray>Bird Stand"
+  material: LEATHER_HORSE_ARMOR
+  Mechanics:
+    furniture:
+      rotation: NONE
+      barrier: true
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+          - { oraxen_item: bird_stand, probability: 1.0 }
+  Pack:
+    generate_model: false
+    model: custom/furniture/bird_stand
+blue_print_jester:
+  displayname: "<gray>Blue Print Jester"
+  material: LEATHER_HORSE_ARMOR
+  Mechanics:
+    furniture:
+      rotation: NONE
+      barrier: true
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+          - { oraxen_item: blue_print_jester, probability: 1.0 }
+  Pack:
+    generate_model: false
+    model: custom/furniture/blue_print_jester
+boulder_anvil:
+  displayname: "<gray>Boulder Anvil"
+  material: LEATHER_HORSE_ARMOR
+  Mechanics:
+    furniture:
+      rotation: NONE
+      barrier: true
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+          - { oraxen_item: boulder_anvil, probability: 1.0 }
+  Pack:
+    generate_model: false
+    model: custom/furniture/boulder_anvil
+ceiling_lamp:
+  displayname: "<gray>Ceiling Lamp"
+  material: LEATHER_HORSE_ARMOR
+  Mechanics:
+    furniture:
+      rotation: NONE
+      barrier: true
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+          - { oraxen_item: ceiling_lamp, probability: 1.0 }
+  Pack:
+    generate_model: false
+    model: custom/furniture/ceiling_lamp
 chair:
   displayname: "<gray>Chair"
   material: LEATHER_HORSE_ARMOR
@@ -306,9 +357,9 @@ chair:
   Pack:
     generate_model: false
     model: custom/furniture/chair
-wooden_table:
-  displayname: "<gray>Wooden Table"
-  material: PAPER
+christmas_rug:
+  displayname: "<gray>Christmas Rug"
+  material: LEATHER_HORSE_ARMOR
   Mechanics:
     furniture:
       rotation: NONE
@@ -316,11 +367,814 @@ wooden_table:
       drop: # useless if you are not using a barrier
         silktouch: false
         loots:
-          - { oraxen_item: wooden_table, probability: 1.0 }
+          - { oraxen_item: christmas_rug, probability: 1.0 }
   Pack:
     generate_model: false
-    model: custom/furniture/wooden_table
-
+    model: custom/furniture/christmas_rug
+construction_barrier:
+  displayname: "<gray>Construction Barrier"
+  material: LEATHER_HORSE_ARMOR
+  Mechanics:
+    furniture:
+      rotation: NONE
+      barrier: true
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+          - { oraxen_item: construction_barrier, probability: 1.0 }
+  Pack:
+    generate_model: false
+    model: custom/furniture/construction_barrier
+cosmo_rug:
+  displayname: "<gray>Cosmo Rug"
+  material: LEATHER_HORSE_ARMOR
+  Mechanics:
+    furniture:
+      rotation: NONE
+      barrier: true
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+          - { oraxen_item: cosmo_rug, probability: 1.0 }
+  Pack:
+    generate_model: false
+    model: custom/furniture/cosmo_rug
+curtain:
+  displayname: "<gray>Curtain"
+  material: LEATHER_HORSE_ARMOR
+  Mechanics:
+    furniture:
+      rotation: NONE
+      barrier: true
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+          - { oraxen_item: curtain, probability: 1.0 }
+  Pack:
+    generate_model: false
+    model: custom/furniture/curtain
+curtain_large:
+  displayname: "<gray>Large Curtain"
+  material: LEATHER_HORSE_ARMOR
+  Mechanics:
+    furniture:
+      rotation: NONE
+      barrier: true
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+          - { oraxen_item: curtain_large, probability: 1.0 }
+  Pack:
+    generate_model: false
+    model: custom/furniture/curtain_large
+dish_setting:
+  displayname: "<gray>Dish Setting"
+  material: LEATHER_HORSE_ARMOR
+  Mechanics:
+    furniture:
+      rotation: NONE
+      barrier: true
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+          - { oraxen_item: dish_setting, probability: 1.0 }
+  Pack:
+    generate_model: false
+    model: custom/furniture/dish_setting
+dish_stack:
+  displayname: "<gray>Dish Stack"
+  material: LEATHER_HORSE_ARMOR
+  Mechanics:
+    furniture:
+      rotation: NONE
+      barrier: true
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+          - { oraxen_item: dish_stack, probability: 1.0 }
+  Pack:
+    generate_model: false
+    model: custom/furniture/dish_stack
+dresser:
+  displayname: "<gray>Dresser"
+  material: LEATHER_HORSE_ARMOR
+  Mechanics:
+    furniture:
+      rotation: NONE
+      barrier: true
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+          - { oraxen_item: dresser, probability: 1.0 }
+  Pack:
+    generate_model: false
+    model: custom/furniture/dresser
+extended_curtain:
+  displayname: "<gray>Extended Curtain"
+  material: LEATHER_HORSE_ARMOR
+  Mechanics:
+    furniture:
+      rotation: NONE
+      barrier: true
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+          - { oraxen_item: extended_curtain, probability: 1.0 }
+  Pack:
+    generate_model: false
+    model: custom/furniture/extended_curtain
+extended_curtain_large:
+  displayname: "<gray>Extended Large Curtain"
+  material: LEATHER_HORSE_ARMOR
+  Mechanics:
+    furniture:
+      rotation: NONE
+      barrier: true
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+          - { oraxen_item: , probability: 1.0 }
+  Pack:
+    generate_model: false
+    model: custom/furniture/
+flower_base:
+  displayname: "<gray>Flower Base"
+  material: LEATHER_HORSE_ARMOR
+  Mechanics:
+    furniture:
+      rotation: NONE
+      barrier: true
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+          - { oraxen_item: flower_base, probability: 1.0 }
+  Pack:
+    generate_model: false
+    model: custom/furniture/flower_base
+full_glass_jar_bunch_1:
+  displayname: "<gray>Bunch of full glass jar 1"
+  material: LEATHER_HORSE_ARMOR
+  Mechanics:
+    furniture:
+      rotation: NONE
+      barrier: true
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+          - { oraxen_item: full_glass_jar_bunch_1, probability: 1.0 }
+  Pack:
+    generate_model: false
+    model: custom/furniture/full_glass_jar_bunch_1
+full_glass_jar_bunch_2:
+  displayname: "<gray>Bunch of full glass jar 2"
+  material: LEATHER_HORSE_ARMOR
+  Mechanics:
+    furniture:
+      rotation: NONE
+      barrier: true
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+          - { oraxen_item: full_glass_jar_bunch_2, probability: 1.0 }
+  Pack:
+    generate_model: false
+    model: custom/furniture/full_glass_jar_bunch_2
+grand_father_clock:
+  displayname: "<gray>Grandfather Clock"
+  material: LEATHER_HORSE_ARMOR
+  Mechanics:
+    furniture:
+      rotation: NONE
+      barrier: true
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+          - { oraxen_item: grand_father_clock, probability: 1.0 }
+  Pack:
+    generate_model: false
+    model: custom/furniture/grand_father_clock
+hanging_lilac:
+  displayname: "<gray>Hanging Lilac"
+  material: LEATHER_HORSE_ARMOR
+  Mechanics:
+    furniture:
+      rotation: NONE
+      barrier: true
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+          - { oraxen_item: hanging_lilac, probability: 1.0 }
+  Pack:
+    generate_model: false
+    model: custom/furniture/hanging_lilac
+hanging_plant:
+  displayname: "<gray>Hanging Plant"
+  material: LEATHER_HORSE_ARMOR
+  Mechanics:
+    furniture:
+      rotation: NONE
+      barrier: true
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+          - { oraxen_item: hanging_plant, probability: 1.0 }
+  Pack:
+    generate_model: false
+    model: custom/furniture/hanging_plant
+iron_chair:
+  displayname: "<gray>Iron Chair"
+  material: LEATHER_HORSE_ARMOR
+  Mechanics:
+    furniture:
+      rotation: NONE
+      barrier: true
+      seat: { height: 0, yaw: 0 }
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+          - { oraxen_item: iron_chair, probability: 1.0 }
+  Pack:
+    generate_model: false
+    model: custom/furniture/iron_chair
+iron_coffee_table:
+  displayname: "<gray>Iron Coffee Table"
+  material: LEATHER_HORSE_ARMOR
+  Mechanics:
+    furniture:
+      rotation: NONE
+      barrier: true
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+          - { oraxen_item: iron_coffee_table, probability: 1.0 }
+  Pack:
+    generate_model: false
+    model: custom/furniture/iron_coffee_table
+iron_table:
+  displayname: "<gray>Iron Table"
+  material: LEATHER_HORSE_ARMOR
+  Mechanics:
+    furniture:
+      rotation: NONE
+      barrier: true
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+          - { oraxen_item: iron_table, probability: 1.0 }
+  Pack:
+    generate_model: false
+    model: custom/furniture/iron_table
+lamp_stand:
+  displayname: "<gray>Lamp Stand"
+  material: LEATHER_HORSE_ARMOR
+  Mechanics:
+    furniture:
+      rotation: NONE
+      barrier: true
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+          - { oraxen_item: lamp_stand, probability: 1.0 }
+  Pack:
+    generate_model: false
+    model: custom/furniture/lamp_stand
+legendary_rug:
+  displayname: "<gray>Legendary Rug"
+  material: LEATHER_HORSE_ARMOR
+  Mechanics:
+    furniture:
+      rotation: NONE
+      barrier: true
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+          - { oraxen_item: legendary_rug, probability: 1.0 }
+  Pack:
+    generate_model: false
+    model: custom/furniture/legendary_rug
+legendary_stand:
+  displayname: "<gray>Legendary Stand"
+  material: LEATHER_HORSE_ARMOR
+  Mechanics:
+    furniture:
+      rotation: NONE
+      barrier: true
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+          - { oraxen_item: legendary_stand, probability: 1.0 }
+  Pack:
+    generate_model: false
+    model: custom/furniture/legendary_stand
+legendary_throne:
+  displayname: "<gray>Legendary Throne"
+  material: LEATHER_HORSE_ARMOR
+  Mechanics:
+    furniture:
+      rotation: NONE
+      barrier: true
+      seat: { height: 0, yaw: 0 }
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+          - { oraxen_item: legendary_throne, probability: 1.0 }
+  Pack:
+    generate_model: false
+    model: custom/furniture/legendary_throne
+lunar_rug:
+  displayname: "<gray>Lunar Rug"
+  material: LEATHER_HORSE_ARMOR
+  Mechanics:
+    furniture:
+      rotation: NONE
+      barrier: true
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+          - { oraxen_item: lunar_rug, probability: 1.0 }
+  Pack:
+    generate_model: false
+    model: custom/furniture/lunar_rug
+mailbox:
+  displayname: "<gray>Mailbox"
+  material: LEATHER_HORSE_ARMOR
+  Mechanics:
+    furniture:
+      rotation: NONE
+      barrier: true
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+          - { oraxen_item: mailbox, probability: 1.0 }
+  Pack:
+    generate_model: false
+    model: custom/furniture/mailbox
+paper_pile_1:
+  displayname: "<gray>Pile of paper 1"
+  material: LEATHER_HORSE_ARMOR
+  Mechanics:
+    furniture:
+      rotation: NONE
+      barrier: true
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+          - { oraxen_item: paper_pile_1, probability: 1.0 }
+  Pack:
+    generate_model: false
+    model: custom/furniture/paper_pile_1
+paper_pile_2:
+  displayname: "<gray>Pile of paper 2"
+  material: LEATHER_HORSE_ARMOR
+  Mechanics:
+    furniture:
+      rotation: NONE
+      barrier: true
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+          - { oraxen_item: paper_pile_2, probability: 1.0 }
+  Pack:
+    generate_model: false
+    model: custom/furniture/paper_pile_2
+park_bench:
+  displayname: "<gray>Park Bench"
+  material: LEATHER_HORSE_ARMOR
+  Mechanics:
+    furniture:
+      rotation: NONE
+      barrier: true
+      seat: { height: 0, yaw: 0 }
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+          - { oraxen_item: park_bench, probability: 1.0 }
+  Pack:
+    generate_model: false
+    model: custom/furniture/park_bench
+pet_bed:
+  displayname: "<gray>Pet Bed"
+  material: LEATHER_HORSE_ARMOR
+  Mechanics:
+    furniture:
+      rotation: NONE
+      barrier: true
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+          - { oraxen_item: pet_bed, probability: 1.0 }
+  Pack:
+    generate_model: false
+    model: custom/furniture/pet_bed
+picnic_table:
+  displayname: "<gray>Picnic Table"
+  material: LEATHER_HORSE_ARMOR
+  Mechanics:
+    furniture:
+      rotation: NONE
+      barrier: true
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+          - { oraxen_item: picnic_table, probability: 1.0 }
+  Pack:
+    generate_model: false
+    model: custom/furniture/picnic_table
+picnic_table_cloth:
+  displayname: "<gray>Clothed Picnic Table"
+  material: LEATHER_HORSE_ARMOR
+  Mechanics:
+    furniture:
+      rotation: NONE
+      barrier: true
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+          - { oraxen_item: picnic_table_cloth, probability: 1.0 }
+  Pack:
+    generate_model: false
+    model: custom/furniture/picnic_table_cloth
+potted_tree:
+  displayname: "<gray>Potted Tree"
+  material: LEATHER_HORSE_ARMOR
+  Mechanics:
+    furniture:
+      rotation: NONE
+      barrier: true
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+          - { oraxen_item: potted_tree, probability: 1.0 }
+  Pack:
+    generate_model: false
+    model: custom/furniture/potted_tree
+potted_tulips:
+  displayname: "<gray>Potted Tulips"
+  material: LEATHER_HORSE_ARMOR
+  Mechanics:
+    furniture:
+      rotation: NONE
+      barrier: true
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+          - { oraxen_item: potted_tulips, probability: 1.0 }
+  Pack:
+    generate_model: false
+    model: custom/furniture/potted_tulips
+rare_rug:
+  displayname: "<gray>Rare Rug"
+  material: LEATHER_HORSE_ARMOR
+  Mechanics:
+    furniture:
+      rotation: NONE
+      barrier: true
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+          - { oraxen_item: rare_rug, probability: 1.0 }
+  Pack:
+    generate_model: false
+    model: custom/furniture/rare_rug
+rocking_chair:
+  displayname: "<gray>Rocking Chair"
+  material: LEATHER_HORSE_ARMOR
+  Mechanics:
+    furniture:
+      rotation: NONE
+      barrier: true
+      seat: { height: 0, yaw: 0 }
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+          - { oraxen_item: rocking_chair, probability: 1.0 }
+  Pack:
+    generate_model: false
+    model: custom/furniture/rocking_chair
+scroll_pile_1:
+  displayname: "<gray>Pile of scrolls 1"
+  material: LEATHER_HORSE_ARMOR
+  Mechanics:
+    furniture:
+      rotation: NONE
+      barrier: true
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+          - { oraxen_item: scroll_pile_1, probability: 1.0 }
+  Pack:
+    generate_model: false
+    model: custom/furniture/scroll_pile_1
+scroll_pile_2:
+  displayname: "<gray>Pile of scrolls 2"
+  material: LEATHER_HORSE_ARMOR
+  Mechanics:
+    furniture:
+      rotation: NONE
+      barrier: true
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+          - { oraxen_item: scroll_pile_2, probability: 1.0 }
+  Pack:
+    generate_model: false
+    model: custom/furniture/scroll_pile_2
+silver_chandelier:
+  displayname: "<gray>Silver Chandelier"
+  material: LEATHER_HORSE_ARMOR
+  Mechanics:
+    furniture:
+      rotation: NONE
+      barrier: true
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+          - { oraxen_item: silver_chandelier, probability: 1.0 }
+  Pack:
+    generate_model: false
+    model: custom/furniture/silver_chandelier
+sleeping_bag:
+  displayname: "<gray>Sleeping Bag"
+  material: LEATHER_HORSE_ARMOR
+  Mechanics:
+    furniture:
+      rotation: NONE
+      barrier: true
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+          - { oraxen_item: sleeping_bag, probability: 1.0 }
+  Pack:
+    generate_model: false
+    model: custom/furniture/sleeping_bag
+sleeping_bag_bundle:
+  displayname: "<gray>Bundle of Sleeping Bag"
+  material: LEATHER_HORSE_ARMOR
+  Mechanics:
+    furniture:
+      rotation: NONE
+      barrier: true
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+          - { oraxen_item: sleeping_bag_bundle, probability: 1.0 }
+  Pack:
+    generate_model: false
+    model: custom/furniture/sleeping_bag_bundle
+sofa_chair:
+  displayname: "<gray>Sofa Chair"
+  material: LEATHER_HORSE_ARMOR
+  Mechanics:
+    furniture:
+      rotation: NONE
+      barrier: true
+      seat: { height: 0, yaw: 0 }
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+          - { oraxen_item: sofa_chair, probability: 1.0 }
+  Pack:
+    generate_model: false
+    model: custom/furniture/sofa_chair
+stall_tarp:
+  displayname: "<gray>Stall Tarp"
+  material: LEATHER_HORSE_ARMOR
+  Mechanics:
+    furniture:
+      rotation: NONE
+      barrier: true
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+          - { oraxen_item: stall_tarp, probability: 1.0 }
+  Pack:
+    generate_model: false
+    model: custom/furniture/stall_tarp
+stall_tarp_small:
+  displayname: "<gray>Small Stall Tarp"
+  material: LEATHER_HORSE_ARMOR
+  Mechanics:
+    furniture:
+      rotation: NONE
+      barrier: true
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+          - { oraxen_item: stall_tarp_small, probability: 1.0 }
+  Pack:
+    generate_model: false
+    model: custom/furniture/stall_tarp_small
+step_ladder:
+  displayname: "<gray>Step Ladder"
+  material: LEATHER_HORSE_ARMOR
+  Mechanics:
+    furniture:
+      rotation: NONE
+      barrier: true
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+          - { oraxen_item: step_ladder, probability: 1.0 }
+  Pack:
+    generate_model: false
+    model: custom/furniture/step_ladder
+stool:
+  displayname: "<gray>Stool"
+  material: LEATHER_HORSE_ARMOR
+  Mechanics:
+    furniture:
+      rotation: NONE
+      barrier: true
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+          - { oraxen_item: stool, probability: 1.0 }
+  Pack:
+    generate_model: false
+    model: custom/furniture/stool
+table_lamp:
+  displayname: "<gray>Table Lamp"
+  material: LEATHER_HORSE_ARMOR
+  Mechanics:
+    furniture:
+      rotation: NONE
+      barrier: true
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+          - { oraxen_item: table_lamp, probability: 1.0 }
+  Pack:
+    generate_model: false
+    model: custom/furniture/table_lamp
+tarp:
+  displayname: "<gray>Tarp"
+  material: LEATHER_HORSE_ARMOR
+  Mechanics:
+    furniture:
+      rotation: NONE
+      barrier: true
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+          - { oraxen_item: tarp, probability: 1.0 }
+  Pack:
+    generate_model: false
+    model: custom/furniture/tarp
+tea_setting:
+  displayname: "<gray>Tea Setting"
+  material: LEATHER_HORSE_ARMOR
+  Mechanics:
+    furniture:
+      rotation: NONE
+      barrier: true
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+          - { oraxen_item: tea_setting, probability: 1.0 }
+  Pack:
+    generate_model: false
+    model: custom/furniture/tea_setting
+traffic_cone:
+  displayname: "<gray>Traffic Cone"
+  material: LEATHER_HORSE_ARMOR
+  Mechanics:
+    furniture:
+      rotation: NONE
+      barrier: true
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+          - { oraxen_item: traffic_cone, probability: 1.0 }
+  Pack:
+    generate_model: false
+    model: custom/furniture/traffic_cone
+wall_flower1:
+  displayname: "<gray>Wall of Flower 1"
+  material: LEATHER_HORSE_ARMOR
+  Mechanics:
+    furniture:
+      rotation: NONE
+      barrier: true
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+          - { oraxen_item: wall_flower1, probability: 1.0 }
+  Pack:
+    generate_model: false
+    model: custom/furniture/wall_flower1
+wall_lamp:
+  displayname: "<gray>Wall Lamp"
+  material: LEATHER_HORSE_ARMOR
+  Mechanics:
+    furniture:
+      rotation: NONE
+      barrier: true
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+          - { oraxen_item: wall_lamp, probability: 1.0 }
+  Pack:
+    generate_model: false
+    model: custom/furniture/wall_lamp
+wall_shelf:
+  displayname: "<gray>Wall Shelf"
+  material: LEATHER_HORSE_ARMOR
+  Mechanics:
+    furniture:
+      rotation: NONE
+      barrier: true
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+          - { oraxen_item: wall_shelf, probability: 1.0 }
+  Pack:
+    generate_model: false
+    model: custom/furniture/wall_shelf
+wall_shelf_large:
+  displayname: "<gray>Large Wall Shelf"
+  material: LEATHER_HORSE_ARMOR
+  Mechanics:
+    furniture:
+      rotation: NONE
+      barrier: true
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+          - { oraxen_item: wall_shelf_large, probability: 1.0 }
+  Pack:
+    generate_model: false
+    model: custom/furniture/wall_shelf_large
+wall_tarp:
+  displayname: "<gray>Wall Tarp"
+  material: LEATHER_HORSE_ARMOR
+  Mechanics:
+    furniture:
+      rotation: NONE
+      barrier: true
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+          - { oraxen_item: wall_tarp, probability: 1.0 }
+  Pack:
+    generate_model: false
+    model: custom/furniture/wall_tarp
+wall_tarp_small:
+  displayname: "<gray>Small Wall Tarp"
+  material: LEATHER_HORSE_ARMOR
+  Mechanics:
+    furniture:
+      rotation: NONE
+      barrier: true
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+          - { oraxen_item: wall_tarp_small, probability: 1.0 }
+  Pack:
+    generate_model: false
+    model: custom/furniture/wall_tarp_small
+wooden_bench:
+  displayname: "<gray>Wooden Bench"
+  material: LEATHER_HORSE_ARMOR
+  Mechanics:
+    furniture:
+      rotation: NONE
+      barrier: true
+      seat: { height: 0, yaw: 0 }
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+          - { oraxen_item: wooden_bench, probability: 1.0 }
+  Pack:
+    generate_model: false
+    model: custom/furniture/wooden_bench
+wooden_chandelier:
+  displayname: "<gray>Wooden Chandelier"
+  material: LEATHER_HORSE_ARMOR
+  Mechanics:
+    furniture:
+      rotation: NONE
+      barrier: true
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+          - { oraxen_item: wooden_chandelier, probability: 1.0 }
+  Pack:
+    generate_model: false
+    model: custom/furniture/wooden_chandelier
+wooden_coffee_table:
+  displayname: "<gray>Wooden Coffee Table"
+  material: LEATHER_HORSE_ARMOR
+  Mechanics:
+    furniture:
+      rotation: NONE
+      barrier: true
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+          - { oraxen_item: wooden_coffee_table, probability: 1.0 }
+  Pack:
+    generate_model: false
+    model: custom/furniture/wooden_coffee_table
 wooden_stool:
   displayname: "<gray>Wooden Stool"
   material: LEATHER_HORSE_ARMOR
@@ -336,9 +1190,22 @@ wooden_stool:
   Pack:
     generate_model: false
     model: custom/furniture/wooden_stool
-
+wooden_table:
+  displayname: "<gray>Wooden Table"
+  material: PAPER
+  Mechanics:
+    furniture:
+      rotation: NONE
+      barrier: true
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+          - { oraxen_item: wooden_table, probability: 1.0 }
+  Pack:
+    generate_model: false
+    model: custom/furniture/wooden_table
 wooden_table_cloth:
-  displayname: "<gray>Wooden Table Cloth"
+  displayname: "<gray>Clothed Wooden Table"
   material: LEATHER_HORSE_ARMOR
   Mechanics:
     furniture:
@@ -351,4 +1218,17 @@ wooden_table_cloth:
   Pack:
     generate_model: false
     model: custom/furniture/wooden_table_cloth
-
+wooden_wardrobe:
+  displayname: "<gray>Wooden Wardrobe"
+  material: LEATHER_HORSE_ARMOR
+  Mechanics:
+    furniture:
+      rotation: NONE
+      barrier: true
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+          - { oraxen_item: wooden_wardrobe, probability: 1.0 }
+  Pack:
+    generate_model: false
+    model: custom/furniture/wooden_wardrobe
